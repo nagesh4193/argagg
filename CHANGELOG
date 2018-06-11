@@ -14,6 +14,8 @@
   - Added argument conversion specialization for cv::Point3_
   - Added argument conversion specialization for cv::Size_
   - Added argument conversion specialization for cv::Rect_
+- Added optional conversion header argagg/convert/boost_optional.hpp
+  - Added argument conversion specialization for boost::optional
 
 0.4.6
 -----
