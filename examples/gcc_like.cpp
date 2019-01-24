@@ -29,17 +29,12 @@
 int main(int argc, const char** argv)
 {
   argagg::parser argparser {{
-      {
-        "help", {"-h", "--help"}, "displays help information", 0},
-      {
-        "verbose", {"-v", "--verbose"}, "increases verbosity", 0},
-      {
-        "include_path", {"-I"}, "include path (can be repeated)", 1},
-      {
-        "definition", {"-D"}, "preprocessor definitions (can be repeated)", 1},
-      {
-        "output", {"-o", "--output"}, "output filename (default: stdout)", 1},
-    }};
+    {"help", {"-h", "--help"}, "displays help information", 0},
+    {"verbose", {"-v", "--verbose"}, "increases verbosity", 0},
+    {"include_path", {"-I"}, "include path (can be repeated)", 1},
+    {"definition", {"-D"}, "preprocessor definitions (can be repeated)", 1},
+    {"output", {"-o", "--output"}, "output filename (default: stdout)", 1},
+  }};
 
   // Define our usage text.
   std::ostringstream usage;
