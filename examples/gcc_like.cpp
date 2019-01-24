@@ -1,10 +1,10 @@
 /*
  * $ mkdir build
  * $ cd build
- * $ cmake -DARAGG_BUILD_EXAMPLES=ON ..
+ * $ cmake -DARGAGG_BUILD_EXAMPLES=ON ..
  * $ make
- * $ ./bin/gcc_like -I/usr/include -I/usr/local/include -DNAME=VALUE -DN_DEBUG \
- *   -ofoo foo.h foo.cpp -I./include -DHACKS_ENABLED hacks.cpp
+ * $ ./bin/gcc_like -I/usr/include -I/usr/local/include -DNAME=VALUE \
+ *   -DN_DEBUG -ofoo foo.h foo.cpp -I./include -DHACKS_ENABLED hacks.cpp
  * include paths:
  *   /usr/include
  *   /usr/local/include
